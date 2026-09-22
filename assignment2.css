@@ -110,3 +110,44 @@ main {
   margin-top: var(--space-sm);
 }
  
+/* ============================
+   Contact form
+   ============================ */
+.contacts form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  max-width: 480px;
+}
+ 
+.contacts input,
+.contacts textarea {
+  padding: var(--space-xs);
+  border-radius: 6px;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  font: inherit;
+}
+ 
+.contacts textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+ 
+.contacts button {
+  align-self: flex-start;
+  padding: var(--space-xs) var(--space-lg);
+  border: none;
+  border-radius: 6px;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  font-weight: 600;
+  font-size: var(--font-base);
+  cursor: pointer;
+}
+ 
+.contacts button:hover {
+  background-color: var(--color-dark);
+}
+ 
