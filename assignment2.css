@@ -89,3 +89,24 @@ nav a:hover {
   color: var(--color-light);
 }
  
+/* ============================
+   Page layout (CSS Grid)
+   ============================ */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+}
+ 
+/* ============================
+   Products section
+   ============================ */
+.products {
+  background-color: var(--color-light);
+}
+ 
+.products img {
+  border-radius: 12px;
+  margin-top: var(--space-sm);
+}
+ 
