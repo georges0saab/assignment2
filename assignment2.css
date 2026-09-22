@@ -47,3 +47,45 @@ h1, h2, h3 {
   line-height: 1.2;
 }
  
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+ 
+/* ============================
+   Header, main, footer shared
+   ============================ */
+header,
+main,
+footer {
+  padding: var(--space-md) var(--space-sm);
+}
+ 
+/* ============================
+   Header (Flexbox)
+   ============================ */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  background-color: var(--color-primary);
+}
+ 
+.brand h1 {
+  font-size: var(--font-lg);
+  color: var(--color-bg);
+}
+ 
+nav a {
+  color: var(--color-bg);
+  text-decoration: none;
+  font-size: var(--font-base);
+}
+ 
+nav a:hover {
+  color: var(--color-light);
+}
+ 
