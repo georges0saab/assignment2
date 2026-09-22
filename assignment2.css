@@ -7,17 +7,17 @@
   --color-dark: #607C3C;
 
   /* spacing scale */
-  --space-xs: 8px;
-  --space-sm: 16px;
-  --space-md: 24px;
-  --space-lg: 40px;
-  --space-xl: 64px;
+  --space-xs: 0.5rem;   /* 8px */
+  --space-sm: 1rem;     /* 16px */
+  --space-md: 1.5rem;   /* 24px */
+  --space-lg: 2.5rem;   /* 40px */
+  --space-xl: 4rem;     /* 64px */
 
   /* font sizes */
-  --font-sm: 14px;
-  --font-base: 16px;
-  --font-md: 20px;
-  --font-lg: 28px;
-  --font-xl: 40px;
+  --font-sm: 0.875rem;  /* 14px */
+  --font-base: 1rem;    /* 16px */
+  --font-md: 1.25rem;   /* 20px */
+  --font-lg: 1.75rem;   /* 28px */
+  --font-xl: 2.5rem;    /* 40px */
 }
 
