@@ -1,59 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link  rel="stylesheet" href="assignment2.css">
+        <link rel="stylesheet" href="assignment2.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> TACTICAL</title>
+        <title>TACTICAL</title>
     </head>
     <body>
         <header>
-            <div class="Brand">
+            <div class="brand">
                 <h1>TACTICAL SUITS</h1>
             </div>
             <nav>
                 <a href="#products">My Products</a>
                 <a href="#about">About-us</a>
-                <a href="#contacts">Contacts </a>
+                <a href="#contacts">Contacts</a>
             </nav>
         </header>
 
         <main>
             <section class="products" id="products">
-            <div class="products">
-                <h2>Our products</h2>
-                <div class="suits">
-                    <h3>Our-Suits</h3>
-                    <p>A tactical jacket and tactical pants are high-performance garments sold separately that combine heavy-duty materials with hidden utility features so professionals can stay combat-ready while maintaining a low profile.</p>
-                    <img src="suits">
+                <div class="products-inner">
+                    <h2>Our products</h2>
+                    <div class="suits">
+                        <h3>Our Suits</h3>
+                        <p>A tactical jacket and tactical pants are high-performance garments sold separately that combine heavy-duty materials with hidden utility features so professionals can stay combat-ready while maintaining a low profile.</p>
+                        <img src="suits.jpg" alt="Model wearing the full tactical jacket and pants suit">
+                        <a href="#about">Learn more about the suit</a>
                     </div>
-                </section>
+                </div>
+            </section>
+
             <section class="about" id="about">
                 <div class="jackets">
-                    <h3> How It's Made </h3>
-                    <p>Tailored using specialized stretch fabrics and an "action back" pleated design for a full, athletic range of motion. The interior lining features reinforced, low-profile pockets for concealed firearms and gear, while the lower side seams incorporate silent magnetic openings or quick-tear snaps for instantaneous weapon access.</p>
-                    <img src="jackets">
+                    <h3>How It's Made — Jacket</h3>
+                    <p>Tailored using specialized stretch fabrics and an "action back" pleated design for a full, athletic range of motion. The interior lining features reinforced, low-profile pockets for concealed gear, while the lower side seams incorporate silent magnetic openings or quick-tear snaps for instantaneous access.</p>
+                    <img src="jackets.jpg" alt="Close-up of the tactical jacket showing the action-back pleated design">
+                    <a href="#contacts">Ask about the jacket</a>
                 </div>
                 <div class="pants">
-                    <h3>How It's Made</h3>
+                    <h3>How It's Made — Pants</h3>
                     <p>Constructed from ultra-durable poly-cotton ripstop blends or heavy-duty Cordura nylon using robust triple-stitched seams. They are built with a stiffened internal waistband to securely support heavy duty belts and gear, alongside a diamond-shaped gusseted crotch panel that prevents the fabric from tearing during intense physical movement.</p>
+                    <img src="pants.jpg" alt="Close-up of the tactical pants showing the reinforced waistband and stitching">
+                    <a href="#contacts">Ask about the pants</a>
                 </div>
             </section>
+
             <section class="impact">
-                <p>The real-world impact of separating your tactical jacket and pants comes down to performance efficiency, specialized utility, and prolonged operational comfort </p>
+                <p>The real-world impact of separating your tactical jacket and pants comes down to performance efficiency, specialized utility, and prolonged operational comfort.</p>
             </section>
+
             <section class="contacts" id="contacts">
-                <h1>Join US</h1>
+                <h2>Join Us</h2>
                 <form>
                     <label for="email">Email</label>
-                    <input id="email" name="email" type="email">
+                    <input id="email" name="email" type="email" required>
                     <label for="message">Message</label>
-                    <textarea id="message" name="message">Write here......</textarea>
-                    <button type="submit"> Submit </button>
+                    <textarea id="message" name="message" placeholder="Write here..."></textarea>
+                    <button type="submit">Submit</button>
                 </form>
             </section>
-                </div>
-            </div>
         </main>
+
+        <footer>
+            <p>&copy; 2026 Tactical Suits. All rights reserved.</p>
+        </footer>
     </body>
 </html>
