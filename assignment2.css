@@ -150,4 +150,22 @@ main {
 .contacts button:hover {
   background-color: var(--color-dark);
 }
+ /* ============================
+   Footer
+   ============================ */
+footer {
+  text-align: center;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  font-size: var(--font-sm);
+}
+ 
+/* ============================
+   Breakpoint: tablet / desktop
+   ============================ */
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
  
