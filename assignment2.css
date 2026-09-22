@@ -1,3 +1,13 @@
+CSS
+/* ============================
+   Base / Reset
+   ============================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
 :root {
   /* color palette */
   --color-bg: #ECECA3;
@@ -5,14 +15,14 @@
   --color-accent: #ABC32F;
   --color-primary: #809C13;
   --color-dark: #607C3C;
-
+ 
   /* spacing scale */
   --space-xs: 0.5rem;   /* 8px */
   --space-sm: 1rem;     /* 16px */
   --space-md: 1.5rem;   /* 24px */
   --space-lg: 2.5rem;   /* 40px */
   --space-xl: 4rem;     /* 64px */
-
+ 
   /* font sizes */
   --font-sm: 0.875rem;  /* 14px */
   --font-base: 1rem;    /* 16px */
@@ -20,4 +30,20 @@
   --font-lg: 1.75rem;   /* 28px */
   --font-xl: 2.5rem;    /* 40px */
 }
-
+ 
+/* ============================
+   Body
+   ============================ */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  line-height: 1.5;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+ 
+h1, h2, h3 {
+  line-height: 1.2;
+}
+ 
